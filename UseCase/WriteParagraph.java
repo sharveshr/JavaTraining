@@ -9,7 +9,7 @@ import java.io.FileWriter;
 public class WriteParagraph {
 public static void main(String[] args) {
 	try{
-		File newFile = new File("C:\\Users\\RSharvesh\\Downloads\\NewFileTest.txt");
+		File newFile = new File("C:\\Users\\Downloads\\NewFileTest.txt");
 		System.out.println(newFile.isFile());
 		System.out.println(newFile.exists());
 	//newFile.createNewFile();
